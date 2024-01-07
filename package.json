@@ -1,0 +1,17 @@
+{
+    "private": true,
+    "workspaces": [
+        "app1",
+        "app2",
+        "components"
+    ],
+    "scripts": {
+        "components:storybook": "yarn workspace components storybook",
+        "app1:build": "yarn workspace app1 build",
+        "app1:start": "yarn workspace app1 start",
+        "app1:dev": "yarn workspace app1 dev",
+        "app1:build-start": "yarn workspace app1 build && yarn workspace app1 start",
+        "app2:build": "yarn workspace app2 build",
+        "app2:start": "yarn workspace app2 start"
+    }
+}
