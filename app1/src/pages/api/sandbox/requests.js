@@ -1,5 +1,4 @@
 import axios from "axios";
-
 import io from "socket.io-client";
 
 const url = "http://localhost:5000"
@@ -20,17 +19,12 @@ export async function sendMessage(message) {
 
 
 
-
-
-
 // // Event listener for the 'result' event
 // socket.on('result', (data) => {
 //     console.log("Received result:", data)
 //     // Handle the result from the server as needed
 //     // For example, update the UI with the result
 // })
-
-
 
 
 
